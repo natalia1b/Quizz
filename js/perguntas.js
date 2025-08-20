@@ -1,151 +1,127 @@
 export const perguntas = [
     {
-        enunciado: "Você acaba de sair da escola e nota algo brilhante no céu. Não é uma estrela comum, nem um avião… é algo misterioso que te faz olhar com atenção. Quando chega em casa e liga a TV, a notícia do dia é: um novo planeta foi descoberto no sistema solar! Qual a sua primeira reação?",
+        enunciado: "Você está olhando para o céu à noite e vê uma estrela cadente. O que passa pela sua cabeça?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Será que essa estrela tem algo a ver com os planetas distantes?",
                 afirmacao: [
-                    "No início ficou com medo do desconhecido e do que esse novo planeta pode representar.",
-                    "Achou estranho como ainda existem coisas tão grandes a serem descobertas no espaço."
+                    "Pensou sobre o que poderia existir além das estrelas e como a astronomia revela os segredos do cosmos.",
+                    "Imaginou como os astrônomos conseguem observar eventos tão distantes e entender seu funcionamento."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é incrível!",
+                texto: "Quem sabe, isso é um sinal de algo grandioso no universo.",
                 afirmacao: [
-                    "Ficou animado com a ideia de novos mundos e quis entender como os astrônomos fizeram essa descoberta.",
-                    "Pensou em como seria viver ou explorar um planeta novo."
+                    "Sentiu que o céu é cheio de mistérios e que talvez a estrela cadente seja um lembrete da nossa curiosidade pelo universo.",
+                    "Pensou em como o desconhecido, como os buracos negros e galáxias distantes, ainda nos fascina."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "O professor de ciências da escola ficou empolgado com a descoberta e decidiu propor uma atividade especial: fazer um trabalho sobre exoplanetas. No fim da aula, ele pede que você comece a pesquisa em casa. O que você faz?",
+        enunciado: "Você está em uma aula sobre a origem do universo e o Big Bang. Como você reage ao aprender sobre esse evento cósmico?",
         alternativas: [
             {
-                texto: "Usa uma plataforma online de exploração espacial com tecnologia de IA que mostra mapas do universo e explicações acessíveis.",
+                texto: "Eu não posso nem começar a imaginar como tudo começou!",
                 afirmacao: [
-                    "Conseguiu visualizar os planetas e sistemas com mais clareza graças à plataforma interativa.",
-                    "Descobriu que a tecnologia pode facilitar a aprendizagem de temas complexos como a astronomia.",
-                    "Percebeu que estudar astronomia pode ser mais divertido com ferramentas que explicam visualmente o que é difícil de imaginar."
+                    "Ficou surpreso com a ideia de que o universo tenha começado a partir de uma explosão tão intensa e pequena.",
+                    "Parece difícil compreender como algo tão grandioso pode ter surgido de uma singularidade."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Conversa com colegas e pesquisa em livros da biblioteca e sites tradicionais sobre astronomia.",
+                texto: "Isso é um convite para explorar ainda mais os mistérios do universo!",
                 afirmacao: [
-                    "Achou mais interessante buscar respostas por conta própria, mesmo levando mais tempo.",
-                    "Valorizou o contato com livros físicos e o diálogo com amigos para montar seu trabalho.",
-                    "Ficou com receio de depender demais da tecnologia para aprender algo tão fascinante quanto o universo."
+                    "Ficou intrigado com as implicações filosóficas e científicas de como o universo surgiu.",
+                    "Sentiu vontade de estudar mais sobre o Big Bang e como ele pode influenciar o futuro do cosmos."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Astronomia pode parecer distante, mas hoje existem ferramentas online que simulam a posição dos planetas e estrelas em tempo real. O professor propôs que cada aluno escolha um planeta ou lua para apresentar. Qual caminho você segue?",
+        enunciado: "Durante uma visita a um observatório, você observa o planeta Júpiter. Qual é sua impressão ao ver o gigante gasoso de perto?",
         alternativas: [
             {
-                texto: "Usa uma plataforma online de exploração espacial com tecnologia de IA que mostra mapas do universo e explicações acessíveis.",
+                texto: "É incrível imaginar que algo tão imenso está tão longe!",
                 afirmacao: [
-                    "Conseguiu visualizar os planetas e sistemas com mais clareza graças à plataforma interativa.",
-                    "Descobriu que a tecnologia pode facilitar a aprendizagem de temas complexos como a astronomia.",
-                    "Percebeu que estudar astronomia pode ser mais divertido com ferramentas que explicam visualmente o que é difícil de imaginar."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Conversa com colegas e pesquisa em livros da biblioteca e sites tradicionais sobre astronomia.",
-                afirmacao: [
-                    "Achou mais interessante buscar respostas por conta própria, mesmo levando mais tempo.",
-                    "Valorizou o contato com livros físicos e o diálogo com amigos para montar seu trabalho.",
-                    "Ficou com receio de depender demais da tecnologia para aprender algo tão fascinante quanto o universo."
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "O trabalho foi entregue, e agora o professor propôs um debate sobre o futuro da exploração espacial e como isso pode mudar nossas vidas. Como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Defende que a exploração espacial pode trazer novas oportunidades para a humanidade, inclusive novas fontes de recursos.",
-                afirmacao: [
-                    "Acredita que a inovação espacial pode transformar a forma como vivemos na Terra.",
-                    "Se interessa por iniciativas que unem tecnologia, sustentabilidade e astronomia para melhorar a vida no planeta."
+                    "Maravilhou-se com o tamanho do planeta e a complexidade das suas faixas de nuvens.",
+                    "Pensou em como a imensidão do universo ainda é um conceito difícil de compreender."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Fica preocupado com os impactos éticos e ambientais da exploração espacial e defende cautela.",
+                texto: "Quais segredos Júpiter pode esconder dentro de suas luas e atmosfera?",
                 afirmacao: [
-                    "Prefere discutir os impactos da corrida espacial com responsabilidade.",
-                    "Defende a criação de regras internacionais para garantir que a exploração espacial não traga desigualdade ou danos ao espaço."
+                    "Curioso sobre o que pode existir nas luas de Júpiter, como Europa e sua possível vida subterrânea.",
+                    "Aprofundou-se no estudo das atmosferas dos planetas e das condições extremas de Júpiter."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Fazer pesquisas por conta própria também traz descobertas valiosas. Durante o debate sobre o futuro da exploração espacial, qual sua visão?",
+        enunciado: "Você está acompanhando uma transmissão sobre a descoberta de um exoplaneta habitável. Qual seria sua primeira reação?",
         alternativas: [
             {
-                texto: "Defende que a exploração espacial pode trazer novas oportunidades para a humanidade, inclusive novas fontes de recursos.",
+                texto: "Será que podemos viver lá um dia?",
                 afirmacao: [
-                    "Acredita que a inovação espacial pode transformar a forma como vivemos na Terra.",
-                    "Se interessa por iniciativas que unem tecnologia, sustentabilidade e astronomia para melhorar a vida no planeta."
-                ],
-                proxima: 5,
-            },
-            {
-                texto: "Fica preocupado com os impactos éticos e ambientais da exploração espacial e defende cautela.",
-                afirmacao: [
-                    "Prefere discutir os impactos da corrida espacial com responsabilidade.",
-                    "Defende a criação de regras internacionais para garantir que a exploração espacial não traga desigualdade ou danos ao espaço."
-                ],
-                proxima: 6,
-            },
-        ]
-    },
-    {
-        enunciado: "No debate final sobre o futuro da astronomia e da humanidade, o professor propôs pensar além: como as futuras gerações viverão em meio a tantas descobertas espaciais? Como você opina?",
-        alternativas: [
-            {
-                texto: "Acredita que viveremos em colônias espaciais e que precisamos nos preparar para isso.",
-                afirmacao: [
-                    "Está animado com a ideia de ver humanos em Marte ou em luas de Júpiter.",
-                    "Vê a astronomia como uma ponte para o futuro e quer inspirar outras pessoas a olhar para o céu com mais curiosidade."
+                    "Ficou animado com a possibilidade de futuras colônias em outros planetas.",
+                    "Pensou nas implicações tecnológicas e científicas de explorar exoplanetas ao invés de apenas estudá-los."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Acredita que a prioridade deve ser melhorar a vida na Terra antes de pensar em ir para o espaço.",
+                texto: "Como seria a vida em um planeta tão distante?",
                 afirmacao: [
-                    "Quer garantir que o planeta seja um bom lugar para todos antes de sonhar com outros mundos.",
-                    "Acha que a astronomia pode ensinar a cuidar da Terra ao mostrar como ela é única e rara."
+                    "Se imaginou como seria viver em um planeta fora do Sistema Solar e como a vida se adaptaria lá.",
+                    "Ficou fascinado com a ideia de que a vida pode ser completamente diferente da Terra, mas ainda assim possível."
                 ],
-                proxima: 7,
+                proxima: 8,
             },
         ]
     },
     {
-        enunciado: "Durante o encerramento do projeto, cada aluno foi convidado a representar em uma imagem como enxerga o universo e o papel da humanidade nele. Como você decide criar essa imagem?",
+        enunciado: "Você está participando de uma aula sobre a viagem interplanetária. O que pensa sobre uma missão a Marte?",
         alternativas: [
             {
-                texto: "Desenha à mão usando ferramentas tradicionais como lápis e tinta.",
+                texto: "Seria uma aventura sem igual, mas também extremamente desafiadora.",
                 afirmacao: [
-                    "Acredita que desenhar manualmente traz um toque pessoal e artístico à visão do universo.",
-                    "Gosta de incentivar as pessoas a expressarem sua visão do espaço através da arte tradicional."
+                    "Considerou o impacto psicológico e físico que uma viagem para Marte teria nos astronautas.",
+                    "Ponderou sobre como a ciência e a tecnologia seriam fundamentais para tornar possível a ida a Marte."
                 ],
+                proxima: 9,
             },
             {
-                texto: "Utiliza uma ferramenta de geração de imagens por IA para criar uma ilustração cósmica impactante.",
+                texto: "Marte é o destino mais próximo, mas será que estamos prontos para viver lá?",
                 afirmacao: [
-                    "Descobriu que mesmo sem saber desenhar, pode criar belas imagens espaciais com a ajuda da tecnologia.",
-                    "Mostrou para a turma como qualquer pessoa pode representar o universo com criatividade usando IA.",
-                    "Percebeu que usar IA para criar imagens pode ser uma forma de tornar o espaço mais acessível a todos."
+                    "Pensou nas dificuldades de adaptação e no tempo que levaria para criar um ambiente seguro em Marte.",
+                    "Refletiu sobre os avanços necessários em termos de sustentabilidade e recursos para uma missão longa ao planeta vermelho."
                 ],
+                proxima: 10,
+            },
+        ]
+    },
+    {
+        enunciado: "Após ouvir sobre a teoria das cordas, você começa a pensar nas dimensões do universo. O que você acha?",
+        alternativas: [
+            {
+                texto: "Se existe algo além das três dimensões, isso muda tudo que sabemos.",
+                afirmacao: [
+                    "Pensou sobre as possíveis dimensões extras que os cientistas acreditam existir, além das três que podemos ver.",
+                    "Sentiu que a teoria das cordas poderia explicar fenômenos ainda desconhecidos da física."
+                ],
+                proxima: 11,
+            },
+            {
+                texto: "É difícil imaginar que o universo seja tão mais complexo do que percebemos.",
+                afirmacao: [
+                    "Reconheceu que a teoria das cordas desafia até mesmo as leis da física clássica.",
+                    "Ficou surpreso ao pensar que o que sabemos sobre o universo é apenas a ponta do iceberg."
+                ],
+                proxima: 12,
             },
         ]
     }
